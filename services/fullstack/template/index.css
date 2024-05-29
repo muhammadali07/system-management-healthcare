@@ -1,0 +1,75 @@
+/* Add a background image to the body */
+body {
+    background-image: url('bg.jpg');
+    /* filter: blur(5px); Apply blur filter (optional) */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    width: fit-content; /* Untuk membuat lebar elemen sesuai dengan isinya */
+    margin: 0 auto; /* Ini akan memberikan margin otomatis di sisi kiri dan kanan, sehingga elemen akan berada di tengah */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+  
+  /* Style the main content area */
+  main {
+    padding: 20px;
+    color: #000;
+  }
+  
+  main p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  form label {
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  
