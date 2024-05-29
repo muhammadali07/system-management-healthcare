@@ -4,8 +4,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<p>Selamat datang di Klinik Terpadu</p>"
+    pass
 
 def login()
+    pass
 
 def regriter()
+    pass
