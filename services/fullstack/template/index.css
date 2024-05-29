@@ -1,9 +1,6 @@
 /* Add a background image to the body */
 body {
-    background-image: url('https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/12/15150813/Inilah-X-Hewan-yang-Termasuk-Sulit-untuk-Dipelihara_.jpg.webp');
-    background-color:#0011fd;
-    background-size: cover;
-    background-position: center;
+    background-image: url('bg.jpg');
     /* filter: blur(5px); Apply blur filter (optional) */
     font-family: Arial, sans-serif;
   }
@@ -26,17 +23,13 @@ body {
   
   /* Style the navigation bar */
   nav {
-    position: absolute; /* Position the nav absolutely */
-    top: 0; /* Position to the top of the viewport */
-    right: 0; /* Position to the right of the viewport */
+    width: fit-content; /* Untuk membuat lebar elemen sesuai dengan isinya */
+    margin: 0 auto; /* Ini akan memberikan margin otomatis di sisi kiri dan kanan, sehingga elemen akan berada di tengah */
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
   }
   
-  nav p {
-    font-size: 1em;
-  }
   
   /* Style the main content area */
   main {
