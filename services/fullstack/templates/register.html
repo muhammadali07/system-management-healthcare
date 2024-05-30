@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Page</title>
-  <link rel="stylesheet" type="text/css" href="loginreg.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='loginreg.css') }}">
 </head>
 <body>
     <div class="container">
@@ -17,7 +17,7 @@
         <input type="password" id="password" name="password">
         <button type="submit">register</button>
       </form>
-      <p>sudah punya akun? <a href="register.html">login kesini</a></p>
+      <p>sudah punya akun? <a href="{{url_for('login')}}">login kesini</a></p>
     </div>
 </body> 
 </html>

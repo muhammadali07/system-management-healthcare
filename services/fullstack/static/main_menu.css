@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    background-image: url('bg.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu h2 {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 14px; /* Set the font size for menu items */
+}
+
+.menu h2:hover {
+    text-decoration: underline;
+}
+
+.specialization {
+    padding: 20px;
+}
+
+.doctor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.specialization h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.doctor-container h1 {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.doctor-container h1:hover {
+    background-color: #f0f0f0;
+}
