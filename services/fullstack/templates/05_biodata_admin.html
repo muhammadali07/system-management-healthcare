@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main_menu.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <div class="menu">
+            <h2><a href="{{url_for('biodata_admin')}}">Bidoata admin</a></h2>
+            <h2><a href="{{url_for('tambah_dokter')}}">Tambah Dokter</a></h2>
+            <h2><a href="{{url_for('daftar_antrian')}}">Daftar Antrian</a></h2>
+            <h2>Keluar</h2>
+        </div>
+    </header>
+    <div class="container">
+        <div class="personal-info">
+            <h1>Biodata kamu</h1>
+            <p><span>Nama:</span> John Doe</p>
+            <p><span>No KTP:</span> 123456789</p>
+            <p><span>No HP:</span> 08123456789</p>
+            <p><span>Alamat:</span> Jl. Contoh No. 123</p>
+            <a href="{{ url_for('edit_biodata') }}"><button class="edit-button">Edit Biodata</button></a>
+        </div>
+    </div>    
+</body>
+</html>

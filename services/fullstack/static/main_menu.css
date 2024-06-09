@@ -66,3 +66,50 @@ header {
 .doctor-container h1:hover {
     background-color: #f0f0f0;
 }
+
+/* Menambahkan gaya untuk nama dan nomor KTP */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat kontainer mencakup tinggi layar */
+    background-color: rgba(0, 0, 0, 0.5); /* Memberi warna latar belakang semi-transparan */
+}
+
+.personal-info {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* Warna latar belakang kotak */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Bayangan kotak */
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+.personal-info p span {
+    font-weight: bold;
+}
+
+.appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointment-table th, .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.appointment-table th {
+    background-color: #f2f2f2;
+}
+
+.appointment-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.appointment-table tbody tr:hover {
+    background-color: #ddd;
+}
