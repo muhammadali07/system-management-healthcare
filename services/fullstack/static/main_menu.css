@@ -78,15 +78,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Membuat kontainer mencakup tinggi layar */
+    min-height: 100vh; /* Menggunakan min-height untuk menjamin bahwa kontainer mencakup setidaknya 100% tinggi viewport */
     background-color: rgba(0, 0, 0, 0.5); /* Memberi warna latar belakang semi-transparan */
 }
 
 .personal-info {
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff; /* Warna latar belakang kotak */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Bayangan kotak */
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.personal-info:hover {
+    background-color: #f9f9f9;
 }
 
 .personal-info p {

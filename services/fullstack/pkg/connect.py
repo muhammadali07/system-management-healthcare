@@ -3,7 +3,7 @@ import psycopg2
 
 def connection():
     try:
-        conn = psycopg2.connect(database="RS",
+        conn = psycopg2.connect(database="coba",
                                 host="localhost",
                                 user="postgres",
                                 password="123456789",
